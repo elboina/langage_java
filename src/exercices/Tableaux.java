@@ -13,7 +13,7 @@ import java.util.Arrays;
  */
 
 /**
- * Ma classe tableaux et sa javadoc
+ * Exercices sur tableaux à deux dimensions
  * @author formation
  */
 public class Tableaux {
