@@ -14,6 +14,7 @@ import java.util.HashSet;
  */
 public class ExempleMap {
     public static void main(String[] args) {
+        
         HashMap<String,String> map = new HashMap<>();
         map.put("Intrinsèque", "Qui est inhérent à quelque chose. Qui lui appartient en propre.");
         map.put("ésotérique", "Qui ne peut être compris que par les initiés.");
