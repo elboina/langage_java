@@ -11,7 +11,9 @@ package exercices.animaux;
  */
 public abstract class Animal {
     
-    private String nom;
+    protected String nom;
+    protected int x =0;
+    protected int y = 0;
 
     public Animal(String nom) {
         this.nom = nom;

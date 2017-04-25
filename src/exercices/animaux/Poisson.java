@@ -16,16 +16,6 @@ public class Poisson extends Animal {
     }
 
     @Override
-    public void setNom(String nom) {
-        super.setNom(nom); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public String getNom() {
-        return super.getNom(); //To change body of generated methods, choose Tools | Templates.
-    }
-    
-    @Override
     public void manger()
     {
         System.out.println(super.getNom() +"  mange des planctons.");
@@ -33,6 +23,7 @@ public class Poisson extends Animal {
     
     @Override
     public void bouger() {
-    System.out.println(super.getNom() + " nage.");
+        x++;
+    System.out.println(String.format(" %s nage vers la position %d %d.", super.getNom(), x, y) );
     }
 }

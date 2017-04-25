@@ -18,7 +18,9 @@ public class Oiseau extends Animal {
     
     @Override
     public void bouger() {
-    System.out.println(super.getNom() +"  vole.");
+        y +=5;
+        x+=5;
+    System.out.println(String.format("%s s'envole vers la position %d %d", super.getNom(), x, y));
     
     }
     
